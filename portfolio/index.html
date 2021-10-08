@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-uWxY/CJNBR+1zjPWmfnSnVxwRheevXITnMqoEIeG1LJrdI0GlVs/9cVSyPYXdcSF" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<style>
+
+
+
+
+.d1{
+  
+    width: 200px;
+    height: 200px;
+    text-align: center;
+   
+}
+.clw{
+    color:white;;
+}
+.d1 .cv{
+    margin-top: 80px;
+}
+.d1 .cont{
+    margin-top: 100px;
+    margin-right: 0px;
+}
+#head{
+    margin: auto;
+    border-bottom:2px black solid ;
+}
+
+
+#logo{
+    width: 150px;
+    height: 150px;
+    margin-left: 220px;
+    margin-top: 40px;
+    background-color: white;
+    background-image: url("pics/wapp.png");
+    background-size: 150px 150px;
+    background-position: -5px 0px;
+    border-radius: 100px;
+    background-origin: content-box;
+    background-repeat: no-repeat;
+    border:2px black solid;
+    box-sizing: border-box;
+}
+
+
+/* body styling */
+.content {
+    text-align: center;
+    padding: 50px;
+    border-bottom:2px tan solid;
+    margin: auto;
+    
+}
+
+/* table styling */
+#skill table {
+  width: 80%;
+  margin: auto;
+ 
+}
+#skill table tr:first-child
+{
+    background-color: tomato;
+}
+
+
+#skill th, td {
+  width: 25%;
+}
+
+
+/* form styling */
+.form{
+    width: 60%;
+    margin: auto;
+    padding: 50px;
+}
+
+.botm{
+    height: 50px;
+    background-color: black;
+    color: white;
+    width: auto;
+    text-align: center;
+    padding: 20px;
+}
+
+.bc{
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    background-color: black;
+    border-radius: 50px;
+    color: white;
+    padding: 15px;
+    text-align: center;
+}
+
+</style>
+
+<body class="bg-dark">
+    <button class="bc" onclick="change()">
+        change background color
+    </button>
+    
+    <div id="head" class="container row">
+        <div class="d1 col ">
+            <div class="cont">
+                <h5> <span style="color:red">PHONE</span> :03003928513<br>
+                    <span style="color:red">EMAIL</span>:shahf2288@gmail.com</h5>
+            </div>
+            
+        </div>
+        <div class="d1 col"><h1 class="cv">Curriculum vitae<br><b>CV</b></h1></div>
+        <div class="d1 col">
+            <div id="logo">
+                
+            </div>
+        </div>
+        
+
+    </div>
+    <div id="body" class="container">
+        <div class="content">
+        <h1>Personal Information</h1>
+        <p>My name is Syed Fahad I am trying to develope my self as a full stack web developer<br>
+        so I try to keep consistent on the way of improve my knowledge and enhance my devlopement Skill </p>
+        </div>
+    </div>
+    <div id="skill" class="container">
+        <div class="content">
+           <h1>Programing Tech Development Skills</h1>  
+           <table id="tbl">
+               <tr>
+                   <th>
+                       Programing Language
+                   </th>
+                   <th>Experience</th>
+                   <th>
+                       Any Project
+                   </th>
+               </tr>
+               <tr>
+                   <td>Python Core</td>
+                   <td>6 month</td>
+                   <td>No Project</td>
+               </tr>
+            <tr>
+                <td>PHP Core</td>
+                <td>6 month</td>
+                <td>No Project</td>
+            </tr>
+            <tr>
+                <td>Javascript Core</td>
+                <td>6 month</td>
+                <td>No Project</td>
+            </tr>
+           </table>
+    
+        </div>
+    </div>
+
+    <div class="contactus container">
+        <h1 style="text-align: center;padding-top: 50px;">Contact Us</h1>
+
+        <form class="form">
+            <div class="row mb-3">
+              <label for="inputEmail3" class="col-sm-2 col-form-label">Email</label>
+              <div class="col-sm-10">
+                <input type="email" class="form-control" id="inputEmail3">
+              </div>
+            </div>
+            <div class="row mb-3">
+              <label for="inputPassword3" class="col-sm-2 col-form-label">Number</label>
+              <div class="col-sm-10">
+                <input type="text" class="form-control" id="inputPassword3">
+              </div>
+            </div>
+            
+            <button type="submit" class="btn btn-primary">Submit</button>
+          </form>
+    </div>
+
+    <div class="botm container">
+        created by Syed Fahad
+
+    </div>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-kQtW33rZJAHjgefvhyyzcGF3C5TFyBQBA13V1RKPf4uH+bwyzQxZ6CmMZHmNBEfJ" crossorigin="anonymous"></script>
+    <script src="app.js"></script>
+</body>
+</html>
