@@ -59,7 +59,7 @@ function tempr(){
          else if(tempNum>0 && tempNum<25){
             show.innerHTML='Carry jacket...'
         }
-        else if(tempNum<0){
+        else if(tempNum<=0){
             show.innerHTML='Not go Outside...'
         }
 }
